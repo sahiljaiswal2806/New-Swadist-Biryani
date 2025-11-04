@@ -1,0 +1,83 @@
+{
+  "config": {
+    "restaurantName": "New Swadist Biryani",
+    "subtitle": "Fresh • Spicy • Authentic Taste",
+    "whatsappNumber": "917393908754",
+    "heroVideo": "videos/roasted_chicken.mp4",
+    "promoVideo": "videos/carving.mp4",
+    "defaultTheme": "dark",
+    "footerText": "© 2025 New Swadist Biryani | Taste of Tradition 🌶"
+  },
+  "menu": [
+    {
+      "title": "Biryani",
+      "badge": "Best Value",
+      "variants": [
+        { "label": "Half", "price": 59 },
+        { "label": "Full", "price": 119 }
+      ],
+      "image": "images/biryani.jpg",
+      "category": "Main Dishes"
+    },
+    {
+      "title": "Sheekh Kabab",
+      "variants": [
+        { "label": "Half", "price": 49 },
+        { "label": "Full", "price": 89 }
+      ],
+      "image": "images/kabab.jpg",
+      "category": "Main Dishes"
+    },
+    {
+      "title": "Kaleji Pathari",
+      "variants": [
+        { "label": "Half", "price": 29 },
+        { "label": "Full", "price": 69 }
+      ],
+      "image": "images/kaleji.jpg",
+      "category": "Main Dishes"
+    },
+    {
+      "title": "Chicken Fry",
+      "variants": [
+        { "label": "4P", "price": 79 },
+        { "label": "8P", "price": 139 }
+      ],
+      "image": "images/fry.jpg",
+      "category": "Fried Specials"
+    },
+    {
+      "title": "Chicken Lollipop",
+      "variants": [
+        { "label": "4P", "price": 79 },
+        { "label": "8P", "price": 139 }
+      ],
+      "image": "images/lollipop.jpg",
+      "category": "Fried Specials"
+    },
+    {
+      "title": "Leg Fry",
+      "variants": [
+        { "label": "Half", "price": 89 },
+        { "label": "Full", "price": 169 }
+      ],
+      "image": "images/legfry.jpg",
+      "category": "Fried Specials"
+    }
+  ],
+  "combos": [
+    {
+      "title": "Classic Treat",
+      "description": "Biryani + Chicken Fry (4P)",
+      "price": 169,
+      "image": "https://images.unsplash.com/photo-1604908177522-6f69b3d5a6ba?q=80&w=400"
+    },
+    {
+      "title": "Royal Feast",
+      "description": "Biryani + Lollipop (8P)",
+      "price": 239,
+      "image": "https://images.unsplash.com/photo-1604908177522-6f69b3d5a6ba?q=80&w=400",
+      "badge": "Popular"
+    }
+  ]
+}
