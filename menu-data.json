@@ -3,8 +3,8 @@
     "restaurantName": "New Swadist Biryani",
     "subtitle": "Fresh • Spicy • Authentic Taste",
     "whatsappNumber": "917393908754",
-    "heroVideo": "videos/roasted_chicken.mp4",
-    "promoVideo": "videos/carving.mp4",
+    "heroVideo": "roasted_chicken.mp4",
+    "promoVideo": "carving.mp4",
     "defaultTheme": "dark",
     "footerText": "© 2025 New Swadist Biryani 🌶| Powered by SJ"
   },
@@ -16,7 +16,7 @@
         { "label": "Half", "price": 59 },
         { "label": "Full", "price": 119 }
       ],
-      "image": "images/biryani.jpg",
+      "image": "biryani.jpg",
       "category": "Main Dishes"
     },
     {
@@ -25,7 +25,7 @@
         { "label": "Half", "price": 49 },
         { "label": "Full", "price": 89 }
       ],
-      "image": "images/kabab.jpg",
+      "image": "kabab.jpg",
       "category": "Main Dishes"
     },
     {
