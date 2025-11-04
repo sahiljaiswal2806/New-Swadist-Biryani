@@ -321,8 +321,8 @@ body::before{content:"";position:fixed;inset:0;background:radial-gradient(circle
         <h2>🛒 Cart</h2>
         <div id="cart"></div>
         <div style="margin-top:10px;">Total: <strong id="total">₹0</strong></div><br>
-        <input type="text" id="custName" placeholder="Enter Customer Name" />
-        <input type="text" id="tableNo" placeholder="Enter Table No" />
+        <input type="text" id="custName" placeholder="Enter Customer Name" required />
+        <input type="text" id="tableNo" placeholder="Enter Table No" required />
         <button class="cta" id="whatsappBtn" disabled>📱 Order on WhatsApp</button>
       </div>
     </aside>
@@ -628,7 +628,7 @@ function sendWhatsApp(){
   lines.push('Thank you for dining with us! 🙏🍗');
 
   const message = lines.join('\n');
-  const phoneRaw = config.whatsappNumber || '917393908754';
+  const phoneRaw = config.whatsappNumber || '917393956967';
   const phone = String(phoneRaw).replace(/[^\d+]/g, '');
   if (!phone) { alert('WhatsApp phone is not configured in menu-data.json'); return; }
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
