@@ -6,7 +6,7 @@
     "heroVideo": "videos/roasted_chicken.mp4",
     "promoVideo": "videos/carving.mp4",
     "defaultTheme": "dark",
-    "footerText": "© 2025 New Swadist Biryani | Taste of Tradition 🌶"
+    "footerText": "© 2025 New Swadist Biryani 🌶| Powered by SJ"
   },
   "menu": [
     {
@@ -21,6 +21,15 @@
     },
     {
       "title": "Sheekh Kabab",
+      "variants": [
+        { "label": "Half", "price": 49 },
+        { "label": "Full", "price": 89 }
+      ],
+      "image": "images/kabab.jpg",
+      "category": "Main Dishes"
+    },
+    {
+      "title": "Only Kabab",
       "variants": [
         { "label": "Half", "price": 49 },
         { "label": "Full", "price": 89 }
